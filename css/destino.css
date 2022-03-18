@@ -11123,5 +11123,312 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (max-width: 576px) {
+  body .solapaUno .infoBanner {
+    display: none;
+    margin-left: 15vw;
+    margin-bottom: 20vh;
+  }
+  body .solapaUno .botonesBanner {
+    display: none;
+    margin-left: 10px;
+  }
+  body .solapaUno .botonesBanner .botonesBannerClick {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+    margin-right: 1vw;
+  }
+  body .solapaDos .contenedorTitulo {
+    display: none;
+    margin-left: 2.5vw;
+    width: 60vw;
+  }
+  body .solapaDos .contenedorTitulo .tituloBanner {
+    font-size: 1rem;
+  }
+  body .solapaDos .contenedorTitulo .botonCompra {
+    margin-left: 20vw;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+  }
+  body .solapaTres .textoBanner {
+    display: none;
+    width: 50vw;
+  }
+  body .solapaTres .textoBanner .botonCompra {
+    margin-left: 20vw;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+  }
+
+  .galeria {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .galeria .tituloGaleria {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .galeria .cartaPres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2vh;
+    padding: 3vh;
+    margin: 1vw;
+    width: 25vw;
+    background-color: #cccccc;
+    border-radius: 5px;
+    box-shadow: 2px -2px 5px #e4e4e4;
+  }
+  .galeria .cartaPres h3, .galeria .cartaPres .h3 {
+    font-size: 1rem;
+  }
+  .galeria .cartaPres .photos {
+    width: 60%;
+  }
+  .galeria .cartaPres .botonAcceso {
+    background-color: #fff;
+    border-radius: 2.5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+  }
+  .galeria .galeriaDesple {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .galeria .galeriaDesple h2, .galeria .galeriaDesple .h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .galeria .galeriaDesple .imagenDesple {
+    width: 65%;
+  }
+  .galeria .galeriaDesple .secciones {
+    margin-bottom: 5vh;
+  }
+  .galeria .galeriaDesple .secciones .link {
+    text-decoration: none;
+    margin-left: 1vw;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  body .solapaUno .infoBanner {
+    margin-left: 15vw;
+    margin-bottom: 20vh;
+  }
+  body .solapaUno .botonesBanner {
+    margin-left: 10px;
+  }
+  body .solapaUno .botonesBanner .botonesBannerClick {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+    margin-right: 1vw;
+  }
+  body .solapaDos .contenedorTitulo {
+    margin-left: 2.5vw;
+    width: 60vw;
+  }
+  body .solapaDos .contenedorTitulo .tituloBanner {
+    font-size: 1rem;
+  }
+  body .solapaDos .contenedorTitulo .botonCompra {
+    margin-left: 20vw;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+  }
+  body .solapaTres .textoBanner {
+    width: 50vw;
+  }
+  body .solapaTres .textoBanner .botonCompra {
+    margin-left: 20vw;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+  }
+
+  .galeria {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .galeria .tituloGaleria {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .galeria .cartaPres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2vh;
+    padding: 3vh;
+    margin: 1vw;
+    width: 25vw;
+    background-color: #cccccc;
+    border-radius: 5px;
+    box-shadow: 2px -2px 5px #e4e4e4;
+  }
+  .galeria .cartaPres .photos {
+    width: 60%;
+  }
+  .galeria .cartaPres .botonAcceso {
+    background-color: #fff;
+    border-radius: 2.5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+  }
+  .galeria .galeriaDesple {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .galeria .galeriaDesple h2, .galeria .galeriaDesple .h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .galeria .galeriaDesple .imagenDesple {
+    width: 90%;
+  }
+  .galeria .galeriaDesple .secciones {
+    margin-bottom: 5vh;
+  }
+  .galeria .galeriaDesple .secciones .link {
+    text-decoration: none;
+    margin-left: 1vw;
+  }
+}
+@media (min-width: 992px) {
+  body .solapaUno .infoBanner {
+    margin-left: 15vw;
+    margin-bottom: 20vh;
+  }
+  body .solapaUno .botonesBanner {
+    margin-left: 10px;
+  }
+  body .solapaUno .botonesBanner .botonesBannerClick {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+    margin-right: 1vw;
+  }
+  body .solapaDos .contenedorTitulo {
+    margin-left: 2.5vw;
+  }
+  body .solapaDos .contenedorTitulo .botonCompra {
+    margin-left: 20vw;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+  }
+  body .solapaDos .contenedorTitulo .botonCompra:hover {
+    background-color: #b1b1b1;
+    color: #fff;
+  }
+  body .solapaTres .textoBanner {
+    width: 65vw;
+    padding-top: 20vh;
+  }
+  body .solapaTres .textoBanner .botonCompra {
+    margin-left: 20vw;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+  }
+  body .solapaTres .textoBanner .botonCompra:hover {
+    background-color: #b1b1b1;
+    color: #fff;
+  }
+  body .galeria {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .galeria .tituloGaleria {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  body .galeria .cartaPres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2vh;
+    padding: 3vh;
+    margin: 1vw;
+    width: 25vw;
+    background-color: #cccccc;
+    border-radius: 5px;
+    box-shadow: 2px -2px 5px #e4e4e4;
+  }
+  body .galeria .cartaPres:hover {
+    background-color: #a3a3a3;
+  }
+  body .galeria .cartaPres .botonAcceso {
+    background-color: #fff;
+    border-radius: 2.5px;
+    box-shadow: -1px 1px 3px #c7c7c7;
+    color: black;
+    text-decoration: none;
+  }
+  body .galeria .cartaPres .botonAcceso:hover {
+    background-color: #7e7e7e;
+    color: #fff;
+    transform: scale(1.25, 1.25);
+  }
+  body .galeriaDesple {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .galeriaDesple h2, body .galeriaDesple .h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  body .galeriaDesple .imagenDesple {
+    width: 90%;
+  }
+  body .galeriaDesple .secciones {
+    margin-bottom: 5vh;
+  }
+  body .galeriaDesple .secciones .link {
+    text-decoration: none;
+    margin-left: 1vw;
+  }
+  body .galeriaDesple .secciones .link:hover {
+    color: aquamarine;
+  }
+}
 
 /*# sourceMappingURL=destino.css.map */

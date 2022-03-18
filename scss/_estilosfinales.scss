@@ -1,0 +1,377 @@
+@media(max-width:576px){
+    body{
+        .solapaUno{
+            .infoBanner{
+                display: none;
+                margin-left:15vw;
+                margin-bottom: 20vh;
+            }
+            .botonesBanner{
+                display: none;
+                margin-left: 10px;
+                .botonesBannerClick{
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                color:black;
+                text-decoration: none;
+                margin-right: 1vw;
+                }
+            }
+        }
+    
+        .solapaDos{
+            .contenedorTitulo{
+                display: none;
+                margin-left: 2.5vw;
+                width: 60vw;
+                .tituloBanner{
+                    font-size: 1rem;
+                }
+                .botonCompra{
+                    margin-left: 20vw;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                    color:black;
+                    text-decoration: none;
+
+    
+                }
+                
+            }
+        }
+    
+        .solapaTres{
+                .textoBanner{
+                    display: none;
+                    width:50vw;
+                    .botonCompra{
+                        margin-left: 20vw;
+                        background-color: #fff;
+                        border-radius: 5px;
+                        box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                        color:black;
+                        text-decoration: none;
+                        }
+                    }
+                
+            }
+        }
+    
+        .galeria{
+            margin-top: 10vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .tituloGaleria{
+                font-size: 2rem;
+                font-weight: 800;
+            }
+            .cartaPres{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                row-gap: 2vh;
+                padding: 3vh;
+                margin: 1vw;
+                width: 25vw;
+                background-color: rgb(204, 204, 204);
+                border-radius: 5px;
+                box-shadow: 2px -2px 5px rgb(228, 228, 228);
+                h3{
+                    font-size: 1rem;
+                }
+                .photos{
+                    width: 60%;
+                }
+
+                .botonAcceso{
+                    background-color: #fff;
+                    border-radius: 2.5px;
+                    box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                    color:black;
+                    text-decoration: none;
+                }
+            }
+    
+        .galeriaDesple{
+            margin-top: 10vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            h2{
+                font-size: 2rem;
+                font-weight: 700;
+            }
+    
+            .imagenDesple{
+                width: 65%;
+            }
+    
+            .secciones{
+                margin-bottom: 5vh;
+    
+                .link{
+                    text-decoration: none;
+                    margin-left: 1vw;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:577px) and (max-width:991px){
+    body{
+        .solapaUno{
+            .infoBanner{
+                margin-left:15vw;
+                margin-bottom: 20vh;
+            }
+            .botonesBanner{
+                margin-left: 10px;
+                .botonesBannerClick{
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                color:black;
+                text-decoration: none;
+                margin-right: 1vw;
+                }
+            }
+        }
+    
+        .solapaDos{
+            .contenedorTitulo{
+                margin-left: 2.5vw;
+                width: 60vw;
+                .tituloBanner{
+                    font-size: 1rem;
+                }
+                .botonCompra{
+                    margin-left: 20vw;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                    color:black;
+                    text-decoration: none;
+
+    
+                }
+                
+            }
+        }
+    
+        .solapaTres{
+                .textoBanner{
+                    width:50vw;
+                    .botonCompra{
+                        margin-left: 20vw;
+                        background-color: #fff;
+                        border-radius: 5px;
+                        box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                        color:black;
+                        text-decoration: none;
+                        }
+                    }
+                
+            }
+        }
+    
+        .galeria{
+            margin-top: 10vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .tituloGaleria{
+                font-size: 3rem;
+                font-weight: 800;
+            }
+            .cartaPres{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                row-gap: 2vh;
+                padding: 3vh;
+                margin: 1vw;
+                width: 25vw;
+                background-color: rgb(204, 204, 204);
+                border-radius: 5px;
+                box-shadow: 2px -2px 5px rgb(228, 228, 228);
+                .photos{
+                    width: 60%;
+                }
+
+                .botonAcceso{
+                    background-color: #fff;
+                    border-radius: 2.5px;
+                    box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                    color:black;
+                    text-decoration: none;
+                }
+            }
+    
+        .galeriaDesple{
+            margin-top: 10vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            h2{
+                font-size: 3rem;
+                font-weight: 800;
+            }
+    
+            .imagenDesple{
+                width: 90%;
+            }
+    
+            .secciones{
+                margin-bottom: 5vh;
+    
+                .link{
+                    text-decoration: none;
+                    margin-left: 1vw;
+                }
+            }
+        }
+    }
+}
+
+//Media querie de detalles finales de lg
+@media (min-width:992px){
+
+body{
+    .solapaUno{
+        .infoBanner{
+            margin-left:15vw;
+            margin-bottom: 20vh;
+        }
+        .botonesBanner{
+            margin-left: 10px;
+            .botonesBannerClick{
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: -1px 1px 3px rgb(199, 199, 199);
+            color:black;
+            text-decoration: none;
+            margin-right: 1vw;
+            }
+        }
+    }
+
+    .solapaDos{
+        .contenedorTitulo{
+            margin-left: 2.5vw;
+            .tituloBanner{
+            }
+            .botonCompra{
+                margin-left: 20vw;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                color:black;
+                text-decoration: none;
+                &:hover{
+                    background-color: rgb(177, 177, 177)
+                    ;
+                    color: #fff;
+                }
+
+            }
+            
+        }
+    }
+
+    .solapaTres{
+            .textoBanner{
+                width:65vw;
+                padding-top: 20vh;
+                .botonCompra{
+                    margin-left: 20vw;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                    color:black;
+                    text-decoration: none;
+                    &:hover{
+                        background-color: rgb(177, 177, 177)
+                        ;
+                        color: #fff;
+                    }
+                }
+            
+        }
+    }
+
+    .galeria{
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .tituloGaleria{
+            font-size: 3rem;
+            font-weight: 800;
+        }
+        .cartaPres{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 2vh;
+            padding: 3vh;
+            margin: 1vw;
+            width: 25vw;
+            background-color: rgb(204, 204, 204);
+            border-radius: 5px;
+            box-shadow: 2px -2px 5px rgb(228, 228, 228);
+            &:hover{
+                background-color: rgb(163, 163, 163);
+            }
+
+            .botonAcceso{
+                background-color: #fff;
+                border-radius: 2.5px;
+                box-shadow: -1px 1px 3px rgb(199, 199, 199);
+                color:black;
+                text-decoration: none;
+                &:hover{
+                    background-color: rgb(126, 126, 126);
+                    color: #fff;
+                    transform: scale(1.25,1.25);
+                }
+            }
+        }
+    }
+
+    .galeriaDesple{
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2{
+            font-size: 3rem;
+            font-weight: 800;
+        }
+
+        .imagenDesple{
+            width: 90%;
+        }
+
+        .secciones{
+            margin-bottom: 5vh;
+
+            .link{
+                text-decoration: none;
+                margin-left: 1vw;
+                &:hover{
+                    color:aquamarine;
+                }
+            }
+        }
+    }
+}
+
+}
